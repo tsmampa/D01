@@ -1,1 +1,2 @@
-ldapwhoami -Q | awk -F: '{ print $2 }'
+#! user/bin/sh
+ldapwhoami
